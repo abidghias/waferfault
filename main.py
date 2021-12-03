@@ -20,7 +20,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return "Flask app is running with changesfsf "
+    return "Flask app is running with a few changes "
 
 port = int(os.getenv("PORT", 5001))
 
